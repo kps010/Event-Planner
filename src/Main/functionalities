@@ -1,0 +1,58 @@
+1. Login
+    username
+    pass
+    (checks in user table for username & pass)
+
+2. Register
+    username
+    pass
+    dob
+    email
+    gender
+    phone no
+    //acc privacy
+    (add data on database in user table)
+
+3. Profile
+    edit info (updates user table)
+    see all posts
+    followings
+    followers
+
+4. Posts
+    post_id
+    username
+    likes
+    comments
+    date
+    (add data in post table)
+
+5. comments
+    username
+    comment
+    (add data in comment table)
+
+// OPTIONAL
+6. Notifications
+    username
+    notification content
+    (add data in notification table)
+
+7. Following & Followers
+    username
+    //if private -> sends notification
+    else -> add to Followers
+    (add data in following if accepts from both else add in followers table)
+
+8. Search user
+    show posts if following them
+    else show profile
+
+9. Display Format
+    username posted on date
+    post_content
+    likes\tcomments
+
+DS
+ArrayList username;
+ArrayList followings;
